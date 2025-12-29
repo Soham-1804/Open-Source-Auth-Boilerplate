@@ -62,24 +62,24 @@ So you can focus on **building features**, not wiring auth again and again.
 
 ## 📁 Project Structure
 
-auth-boilerplate/
-├── client/ # React frontend
-│ ├── src/
-│ │ ├── auth/ # Auth context & hooks
-│ │ ├── pages/ # Login, Register, Dashboard
-│ │ ├── routes/ # Protected routes
-│ │ ├── services/ # API calls
-│ │ └── utils/
-│
-├── server/ # Node + Express backend
-│ ├── controllers/ # Auth controllers
-│ ├── routes/ # Auth routes
-│ ├── middleware/ # JWT auth middleware
-│ ├── models/ # MongoDB models
-│ ├── utils/ # Helper functions
-│ └── config/ # DB & OAuth config
-│
-└── README.md
+auth-boilerplate/<br>
+├── client/ # React frontend<br>
+│ ├── src/<br>
+│ │ ├── auth/ # Auth context & hooks<br>
+│ │ ├── pages/ # Login, Register, Dashboard<br>
+│ │ ├── routes/ # Protected routes<br>
+│ │ ├── services/ # API calls<br>
+│ │ └── utils/<br>
+│<br>
+├── server/ # Node + Express backend<br>
+│ ├── controllers/ # Auth controllers<br>
+│ ├── routes/ # Auth routes<br>
+│ ├── middleware/ # JWT auth middleware<br>
+│ ├── models/ # MongoDB models<br>
+│ ├── utils/ # Helper functions<br>
+│ └── config/ # DB & OAuth config<br>
+│<br>
+└── README.md<br>
 
 🔒 Authentication Flow (Overview)
 
